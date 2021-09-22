@@ -75,6 +75,9 @@ jobs:
         with:
           go-version: 1.16
 
+      - name: Build chaos runner image
+        run: make build-amd64
+
       #Install and configure a kind cluster
       - name: Installing Prerequisites (K3S Cluster)
         env: 
