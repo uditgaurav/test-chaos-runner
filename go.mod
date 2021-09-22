@@ -1,6 +1,6 @@
 module github.com/litmuschaos/chaos-runner
 
-go 1.13
+go 1.16
 
 require (
 	github.com/jpillora/go-ogle-analytics v0.0.0-20161213085824-14b04e0594ef
